@@ -10,6 +10,8 @@ void solve(int a,int b ,int c)
     }
   cout<<sum<<endl;
 }
+// doing some changes in this prorgam through comments to reflect it back on my repo
+
 int main()
 {
   int t;

@@ -4,7 +4,7 @@ void solve(int a,int b ,int c)
 {
   int n=max({a,b,c}),sum=0;
   
-  for( int i=0;i<n;i++)
+  for( int i=0;i<=n;i++)
     {
       sum=sum+i;
     }
@@ -16,7 +16,7 @@ int main()
 {
   int t;
   cin>>t;
-  vector<vector<int>> num(t,vector<int>(3));
+  vector<vector<int>> nums(t,vector<int>(3));
   for(int i=0;i<t;i++)
     {
       cin>>nums[i][0]>>nums[i][1]>>nums[i][2];
